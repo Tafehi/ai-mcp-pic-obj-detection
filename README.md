@@ -150,11 +150,11 @@ As this project is still under development, contributions are welcome! Feel free
 
 ## 📝 License
 
-[Add your license here]
+[]
 
 ## 👤 Author
 
-[Your name/organization]
+[Ehsan Tafehi]
 
 ## 🙏 Acknowledgments
 
