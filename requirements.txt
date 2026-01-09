@@ -1,0 +1,23 @@
+# --- Core LLM & Orchestration ---
+langchain
+langchain-community
+langchain-mcp-adapters
+langchain-ollama
+langgraph
+langchain_aws
+langgraph-checkpoint
+
+# --- MCP (Model Context Protocol) ---
+mcp[cli]
+boto3
+fastmcp
+streamlit
+
+# --- App & Env ---
+streamlit
+python-dotenv
+
+# --- Dev tools (formatting) ---
+black
+isort
+requests
