@@ -37,16 +37,6 @@ An intelligent AI-powered application that combines image generation and object 
    pip install -r requirements.txt
    ```
 
-3. **Set up environment variables** (Optional)
-   
-   Create a `.env` file in the project root:
-   ```env
-   AWS_ACCESS_KEY_ID=your_access_key
-   AWS_SECRET_ACCESS_KEY=your_secret_key
-   AWS_SESSION_TOKEN=your_session_token
-   AWS_REGION=eu-west-1
-   ```
-
 ## 🚀 Usage
 
 ### Run the Streamlit Application
@@ -62,7 +52,7 @@ The application will open in your default browser at `http://localhost:8501`
 1. **Configure Settings**:
    - Select your preferred AI model from the sidebar
    - Adjust temperature for creativity control
-   - Enter AWS credentials (or load from saved config)
+   - Enter AWS credentials in the sidebar and click "🔄 Enter Credentials" to save them
 
 2. **Generate Images**:
    - Navigate to the "🎨 Generate Image" tab
@@ -81,7 +71,6 @@ The application will open in your default browser at `http://localhost:8501`
 ai-mcp-pic-obj-detection/
 ├── main.py                 # Main Streamlit application
 ├── requirements.txt        # Project dependencies
-├── .env                    # Environment variables (create this)
 ├── .config                 # Stored AWS credentials (auto-generated)
 ├── logo/                   # Application logos
 │   └── 01.png
@@ -112,10 +101,7 @@ ai-mcp-pic-obj-detection/
 ### AWS Configuration
 
 - **Region**: Default is `eu-west-1` (configurable)
-- **Credentials**: Can be provided via:
-  - Sidebar input fields
-  - `.env` file
-  - `.config` file (auto-generated when saved)
+- **Credentials**: Enter your AWS credentials in the sidebar and click "🔄 Enter Credentials" to save them to `.config` file for future use
 
 ## 🧪 Development
 
